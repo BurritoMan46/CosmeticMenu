@@ -199,7 +199,8 @@ if($item->getId() == 310){
       $player->getInventory()->removeItem(Item::get(ITEM::DIAMOND_HELMET));
       $player->getInventory()->addItem(Item::get(ITEM::FISHING_ROD));
       $player->getInventory()->addItem(Item::get(ITEM::SLIMEBALL));
-      $player->getInventory()->addItem(Item::get(ITEM::IRON_AXE));     
+      $player->getInventory()->addItem(Item::get(ITEM::IRON_AXE));
+      $player->getInventory()->addItem(Item::get(ITEM::ENDER_PEARL));
       $player->getInventory()->addItem(Item::get(ITEM::BED));     
 }
 //Partical
@@ -222,6 +223,7 @@ if($item->getId() == 310){
       $player->getInventory()->removeItem(Item::get(ITEM::MINECART));
       $player->getInventory()->removeItem(Item::get(ITEM::GLOWSTONE));
       $player->getInventory()->removeItem(Item::get(ITEM::FISHING_ROD));
+      $player->getInventory()->removeItem(Item::get(ITEM::ENDER_PEARL));
       $player->getInventory()->removeItem(Item::get(ITEM::DYE,15,1));
       $player->getInventory()->removeItem(Item::get(ITEM::DYE,4,1));
       $player->getInventory()->removeItem(Item::get(ITEM::DYE,1,1));
